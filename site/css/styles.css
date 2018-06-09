@@ -1,0 +1,58 @@
+body {
+	font-size: 18px;
+	color: #555555;
+	font-family: Helvetica;
+}
+
+.navbar-brand h1 {
+	font-size: 2em;
+	color: #555555;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.jumbotron {
+    background: url('../images/christian-tellkamp-8_quer.jpg') no-repeat;
+    background-size: cover;
+    background-position: center; 
+    min-height: 250px;
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+    background: url('../images/christian-tellkamp-8_quer.jpg') no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 675px;
+  }
+}
+
+.container #slogan h2 {
+	font-style: italic;
+	margin-bottom: 25px;
+}
+
+.container .btn {
+	margin-bottom: 40px;
+}
+
+#footer {
+	background-color: lightgray;
+}
+
+#footercontent {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+#exampleheadline {
+	margin-top: 40px;
+}
+
+#exampleimages {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-height: 400px;
+}
