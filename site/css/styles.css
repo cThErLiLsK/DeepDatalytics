@@ -5,8 +5,15 @@ body {
 }
 
 .navbar-brand h1 {
+	font-size: 1.5em;
+	color: #555555;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand h1 {
 	font-size: 2em;
 	color: #555555;
+  }
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
